@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>WebSocketSharp</RootNamespace>
+    <PackageId>websocket-sharp.netstandard</PackageId>
+    <Description>A C# implementation of the WebSocket protocol client and server by https://github.com/sta</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\websocket-sharp.netstandard.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
